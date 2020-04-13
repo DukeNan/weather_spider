@@ -40,9 +40,9 @@ class Star(Enum):
 
 # redis configs
 class RedisConfigs(Enum):
-    HOST = 'www.atmt.top'
+    HOST = '127.0.0.1'
     PORT = 6379
-    PASSWORD = '594566'
+    PASSWORD = 'admin123'
     DB = 15
 
 
